@@ -167,3 +167,37 @@ line-height:1.8;
 font-size:18px;
 color:#555;
 }
+.how-it-works{
+padding:90px 0;
+background:#ffffff;
+}
+
+.steps{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.step-card{
+background:#f8fbff;
+padding:40px;
+border-radius:18px;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.step-card:hover{
+transform:translateY(-10px);
+}
+
+.step-card h3{
+color:#2563eb;
+margin-bottom:15px;
+font-size:24px;
+}
+
+.step-card p{
+font-size:17px;
+line-height:1.7;
+color:#555;
+}
