@@ -124,7 +124,45 @@ font-size:45px;
 color:#2563eb;
 margin-bottom:12px;
 }
+.features{
+padding:90px 0;
+background:#f6f9ff;
+}
 
+.section-title{
+text-align:center;
+font-size:42px;
+margin-bottom:60px;
+}
+
+.feature-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:35px;
+}
+
+.feature-box{
+background:white;
+padding:40px;
+border-radius:18px;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+transition:.4s;
+}
+
+.feature-box:hover{
+transform:translateY(-10px);
+}
+
+.feature-box h3{
+color:#2563eb;
+margin-bottom:15px;
+font-size:26px;
+}
+
+.feature-box p{
+font-size:18px;
+line-height:1.8;
+}
 .stat-card p{
 font-size:18px;
 color:#555;
