@@ -294,3 +294,116 @@ right:20px;
 .gallery-item img{
 cursor:pointer;
 }
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+
+@media (max-width:768px){
+
+.container{
+    width:95%;
+}
+
+.navbar .container{
+    flex-direction:column;
+    gap:15px;
+}
+
+.logo{
+    font-size:32px;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+}
+
+nav a{
+    margin:0;
+    font-size:16px;
+}
+
+.join-btn{
+    margin-top:10px;
+}
+
+.hero{
+    padding:50px 0;
+}
+
+.hero-content{
+    flex-direction:column-reverse;
+    text-align:center;
+}
+
+.left h1{
+    font-size:42px;
+    line-height:1.2;
+}
+
+.left p{
+    font-size:18px;
+}
+
+.hero-btn{
+    width:100%;
+}
+
+.right img{
+    max-width:100%;
+}
+
+.stats-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.feature-grid{
+    grid-template-columns:1fr;
+}
+
+.steps{
+    grid-template-columns:1fr;
+}
+
+.gallery-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.gallery-item img{
+    height:170px;
+}
+
+.section-title{
+    font-size:32px;
+}
+
+.stat-card{
+    padding:25px;
+}
+
+.feature-box{
+    padding:30px;
+}
+
+.step-card{
+    padding:30px;
+}
+
+#lightbox img{
+    max-width:95%;
+    max-height:80%;
+}
+
+.prev,
+.next{
+    font-size:40px;
+}
+
+.close{
+    font-size:40px;
+    right:20px;
+}
+
+}
