@@ -327,10 +327,6 @@ nav a{
     max-width:100%;
 }
 
-.stats-grid{
-    grid-template-columns:repeat(2,1fr);
-}
-
 .feature-grid{
     grid-template-columns:1fr;
 }
