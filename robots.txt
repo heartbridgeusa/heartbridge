@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
 
-Disallow: /heartbridge/find-matches.html
+Disallow: /find-matches.html
 
 Sitemap: https://heartbridgeusa.github.io/heartbridge/sitemap.xml
