@@ -833,3 +833,22 @@ grid-template-columns:1fr;
 }
 
 }
+.video-chat-btn{
+    display:block;
+    width:90%;
+    margin:15px auto;
+    padding:12px 20px;
+    background:#2563eb;
+    color:#fff;
+    text-align:center;
+    text-decoration:none;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+    transition:all .3s ease;
+}
+
+.video-chat-btn:hover{
+    background:#1d4ed8;
+    transform:translateY(-2px);
+}
